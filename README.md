@@ -242,7 +242,7 @@ any sequence present in the test set from the training dataset before model cons
 This step ensured that the model did not directly encounter test examples during training.
 
 From a biological perspective, the strong separability observed in the results is scientifically
-plausible. Clade 2.3.4.4b follows distinct evolutionary trajectories and contains characteristic
+possible. Clade 2.3.4.4b follows distinct evolutionary trajectories and contains characteristic
 mutations in the HA gene. This subclade involves the most recent prevalent strains with
 multiple H5Nx subtypes, is globally spread, and forms the largest monophyletic subclade
 (Demirev et al., 2023). Viral genomic clades often exhibit conserved sequence signatures
@@ -255,13 +255,13 @@ between 1600 and 1900 nucleotides were retained, and sequences with more than 1%
 ambiguous bases were excluded. This high-quality filtering reduces noise and prevents
 distorted k-mer distributions, enabling the model to learn clear sequence patterns.
 
-However, despite these methodological safeguards, perfect classification performance may
+However, despite these methodological controls, perfect classification performance may
 still indicate overfitting to dataset-specific characteristics. If the sequences within each class
 share similar geographic origins, collection periods, or evolutionary backgrounds, the model
 may be capturing subtle distributional biases rather than universally generalizable
 clade-defining features.
 
-Therefore, while the results are biologically plausible and not necessarily the consequence
+Therefore, while the results are biologically possible and not necessarily the consequence
 of data leakage, additional validation on distinct datasets would be necessary to confidently
 exclude overfitting and confirm the model’s true predictive capacity.
 
