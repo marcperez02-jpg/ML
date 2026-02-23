@@ -4,47 +4,14 @@ LEARNING
 ```
 **INTRODUCTION**
 
-Avian influenza (AI) represents a significant poultry disease resulting from infection with type
-A influenza viruses, commonly designated as avian influenza viruses (AIV) (Swayne and
-Spackman 2013). These viruses are characterized by a genome comprising eight distinct
-gene segments and are taxonomically classified into various subtypes according to the
-specific composition of their surface glycoproteins. This classification system relies on the 16
-hemagglutinin (HA) subtypes (H1 through H16) and nine neuraminidase (NA) subtypes (N
-through N9), which are encoded by gene segments 4 and 6 (Swayne and Sims, 2021).
+Avian influenza (AI) represents a significant poultry disease resulting from infection with type A influenza viruses, commonly designated as avian influenza viruses (AIV) (Swayne and Spackman 2013). These viruses are characterized by a genome comprising eight distinct gene segments and are taxonomically classified into various subtypes according to the specific composition of their surface glycoproteins. This classification system relies on the 16 hemagglutinin (HA) subtypes (H1 through H16) and nine neuraminidase (NA) subtypes (N1 through N9), which are encoded by gene segments 4 and 6 (Swayne and Sims, 2021).
+Poultry-infecting influenza A viruses are categorized into two distinct groups based on their clinical impact. Highly pathogenic avian influenza (HPAI) represents the most severe form, capable of causing up to 100% mortality within a flock (Hurt et al., 2017). While this high-virulence phenotype is restricted to the H5 and H7 subtypes, it is important to note that not all viruses within these two subtypes are highly pathogenic. Most other strains result in low pathogenic avian influenza (LPAI), which typically manifests as a mild respiratory condition unless secondary factors increase the severity of the disease (Alexander, 2007).
 
-Poultry-infecting influenza A viruses are categorized into two distinct groups based on their
-clinical impact. Highly pathogenic avian influenza (HPAI) represents the most severe form,
-capable of causing up to 100% mortality within a flock. While this high-virulence phenotype
-is restricted to the H5 and H7 subtypes, it is important to note that not all viruses within these
-two subtypes are highly pathogenic. Most other strains result in low pathogenic avian
-influenza (LPAI), which typically manifests as a mild respiratory condition unless secondary
-factors increase the severity of the disease (Alexander, 2007).
+The global proliferation of HPAI H5N1 since 2021 has developed into an unprecedented panzootic, resulting in catastrophic poultry losses and frequent spillover events into diverse mammalian hosts (Harvey et al., 2023). This expansion has naturally increased human exposure risks, thereby heightening the potential for a future pandemic (Krammer et al., 2025). Due to the rapid accumulation of novel mutations, traditional subtype classifications no longer fully represent the virus's complex evolutionary history. To address this limitation, the WHO/WOAH/FAO H5 working group established a specialized clade-based classification system to more accurately track these genetic shifts (WHO/OIE/FAO, 2014).
 
-The global proliferation of highly pathogenic avian influenza (HPAI) H5N1 since 2021 has
-developed into an unprecedented panzootic, resulting in catastrophic poultry losses and
-frequent spillover events into diverse mammalian hosts. This expansion has naturally
-increased human exposure risks, thereby heightening the potential for a future pandemic
-(Krammer et al., 2025). Due to the rapid accumulation of novel mutations, traditional subtype
-classifications no longer fully represent the virus's complex evolutionary history. To address
-this limitation, the WHO/WOAH/FAO H5 working group established a specialized
-clade-based classification system to more accurately track these genetic shifts
-(WHO/OIE/FAO, 2014).
+Recent human infections involving clade 2.3.4.4b, acquired from contact with infected poultry or dairy cattle, have demonstrated a broad clinical spectrum ranging from mild conjunctivitis to fatal pneumonia. Consequently, there is an urgent need for robust genomic surveillance and rapid data sharing across avian, mammalian, and human populations to monitor the ongoing evolution of these viruses (Webby and Uyeki, 2024).  As emphasized by Graziosi et al. (2024), the dominance of the 2.3.4.4b lineage necessitates precise pathogen characterization. Effective public health responses depend entirely on the identification of viral clades, a task made challenging by the intricate and fluid evolutionary dynamics inherent to influenza A viruses.
+The objective of this project is to develop a machine learning-based diagnostic tool capable of identifying whether a HA sequence from an influenza A virus belongs to the H5N1 clade 2.3.4.4b. 
 
-Recent human infections involving clade 2.3.4.4b, acquired from contact with infected poultry
-or dairy cattle, have demonstrated a broad clinical spectrum ranging from mild conjunctivitis
-to fatal pneumonia. Consequently, there is an urgent need for robust genomic surveillance
-and rapid data sharing across avian, mammalian, and human populations to monitor the
-ongoing evolution of these viruses (Webby and Uyeki, 2024). As emphasized by Graziosi et
-al. (2024), the dominance of the 2.3.4.4b lineage necessitates precise pathogen
-characterization. Effective public health responses depend entirely on the identification of
-viral clades, a task made challenging by the intricate and fluid evolutionary dynamics
-inherent to influenza A viruses.
-
-The objective of this project is to develop a machine learning-based diagnostic tool capable
-of identifying whether a hemagglutinin (HA) sequence from an influenza A virus belongs to
-the H5N1 clade 2.3.4.4b. This specific lineage has demonstrated significant pandemic
-potential due to its high virulence and its increased capacity for zoonotic transmission into
-human populations.
 
 
  
