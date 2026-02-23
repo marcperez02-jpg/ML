@@ -47,7 +47,7 @@ potential due to its high virulence and its increased capacity for zoonotic tran
 human populations.
 
 
-and Big Data Analytics 1777678
+ 
 
 **METHODS**
 
@@ -99,7 +99,7 @@ After the exclusion is complete, the script handles class imbalance by identifyi
 _minority_count_ between the positive and negative samples. It creates two new variables,
 
 
-and Big Data Analytics 1777678
+ 
 
 _df_positive_balanced_ and _df_negative_balanced_ , by using the _.sample(n=minority_count)_
 method with a fixed _random_state_ of 24, again for reproducibility. This downsamples the
@@ -149,7 +149,7 @@ The validate_predictor.py is designed to assess the predictive performance of th
 Random Forest model on an independent test set previously created.
 
 
-and Big Data Analytics 1777678
+ 
 
 It functions by using the _joblib.load_ command to bring the model back into memory and then
 processes each test sequence through the _get_kmer_frequencies_ function, explained above.
@@ -179,7 +179,7 @@ removing intermediate files and generated images, was implemented with the comma
 _snakemake clean --cores 1_.
 
 
-and Big Data Analytics 1777678
+ 
 
 # RESULTS
 
@@ -201,7 +201,7 @@ The dark blue squares show that all 50 "Other" sequences and all 50 "2.3.4.4b" s
 classified correctly.
 ```
 
-and Big Data Analytics 1777678
+ 
 
 **Feature Importance**
 
@@ -229,7 +229,7 @@ strict precautions were implemented to prevent data leakage, the possibility of 
 cannot be fully excluded.
 
 
-and Big Data Analytics 1777678
+ 
 
 The pipeline incorporated a _filter_overlapping_sequences_ function that explicitly removed
 any sequence present in the test set from the training dataset before model construction.
@@ -260,7 +260,7 @@ of data leakage, additional validation on distinct datasets would be necessary t
 exclude overfitting and confirm the model’s true predictive capacity.
 
 
-and Big Data Analytics 1777678
+ 
 
 **REFERENCES**
 
