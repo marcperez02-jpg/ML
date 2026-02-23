@@ -1,0 +1,9 @@
+H5N1 CLADE PREDICTOR VALIDATION REPORT
+Precision: 1.0000
+Recall:    1.0000
+
+Confusion Matrix:
+True Positives:  50
+True Negatives:  50
+False Positives: 0
+False Negatives: 0
