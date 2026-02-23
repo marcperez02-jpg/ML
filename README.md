@@ -191,10 +191,14 @@ metrics, showing that of the 100 sequences tested (50 from clade 2.3.4.4b and 50
 clades), all were classified with 100% accuracy ( _Figure 2_ ). Specifically, there were 50 True
 Positives and 50 True Negatives, with zero instances of False Positives or False Negatives.
 
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/9a14564c-de8d-4ddf-9ba3-b4edba1d69a0" />
+
 ```
 Figure 1. Model Performance Scores. This graph shows that the model achieved a perfect score of
 1.0 (100%) for both Precision and Recall.
 ```
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/45df91e1-0ca4-49b2-a478-d28d129032a1" />
+
 ```
 Figure 2. Confusion Matrix. This heatmap provides a detailed breakdown of the model's predictions.
 The dark blue squares show that all 50 "Other" sequences and all 50 "2.3.4.4b" sequences were
@@ -212,6 +216,8 @@ motifs likely represent conserved codons or regulatory regions specific to the H
 the 2.3.4.4b lineage. The high importance of specific 3-mers suggests that the Random
 Forest has successfully isolated conserved genomic motifs that serve as definitive molecular
 signatures for this H5N1 lineage
+
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/b3b45939-f830-41e7-9034-81a90558ba3a" />
 
 ```
 Figure 3. Relative Feature Importance of Top 10 Influential 3-mers. This visualization
