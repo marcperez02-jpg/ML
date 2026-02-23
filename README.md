@@ -5,6 +5,7 @@ LEARNING
 **INTRODUCTION**
 
 Avian influenza (AI) represents a significant poultry disease resulting from infection with type A influenza viruses, commonly designated as avian influenza viruses (AIV) (Swayne and Spackman 2013). These viruses are characterized by a genome comprising eight distinct gene segments and are taxonomically classified into various subtypes according to the specific composition of their surface glycoproteins. This classification system relies on the 16 hemagglutinin (HA) subtypes (H1 through H16) and nine neuraminidase (NA) subtypes (N1 through N9), which are encoded by gene segments 4 and 6 (Swayne and Sims, 2021).
+
 Poultry-infecting influenza A viruses are categorized into two distinct groups based on their clinical impact. Highly pathogenic avian influenza (HPAI) represents the most severe form, capable of causing up to 100% mortality within a flock (Hurt et al., 2017). While this high-virulence phenotype is restricted to the H5 and H7 subtypes, it is important to note that not all viruses within these two subtypes are highly pathogenic. Most other strains result in low pathogenic avian influenza (LPAI), which typically manifests as a mild respiratory condition unless secondary factors increase the severity of the disease (Alexander, 2007).
 
 The global proliferation of HPAI H5N1 since 2021 has developed into an unprecedented panzootic, resulting in catastrophic poultry losses and frequent spillover events into diverse mammalian hosts (Harvey et al., 2023). This expansion has naturally increased human exposure risks, thereby heightening the potential for a future pandemic (Krammer et al., 2025). Due to the rapid accumulation of novel mutations, traditional subtype classifications no longer fully represent the virus's complex evolutionary history. To address this limitation, the WHO/WOAH/FAO H5 working group established a specialized clade-based classification system to more accurately track these genetic shifts (WHO/OIE/FAO, 2014).
@@ -237,47 +238,22 @@ exclude overfitting and confirm the model’s true predictive capacity.
 
 **REFERENCES**
 
-Alexander, D. J. (2007). An overview of the epidemiology of avian influenza. Vaccine, 25(30),
-5637–5644. https://doi.org/10.1016/j.vaccine.2006.10.
-Breiman, L. (2001). Random forests. Machine Learning, 45(1), 5–32.
-https://doi.org/10.1023/A:
-Demirev, A. V., Park, H., Lee, K., Park, S., Bae, J.-Y., Park, M.-S., & Kim, J. I. (2023).
-Phylodynamics and Molecular Mutations of the Hemagglutinin Affecting Global
-Transmission and Host Adaptation of H5Nx Viruses. Transboundary and Emerging
-Diseases, 2023, 1–14. https://doi.org/10.1155/2023/
-Graziosi, G., Lupini, C., Catelli, E., & Carnaccini, S. (2024). Highly Pathogenic Avian
-Influenza (HPAI) H5 Clade 2.3.4.4b Virus Infection in Birds and Mammals. Animals,
-14(9), 1372. https://doi.org/10.3390/ani
-IBM. (n.d.). What is overfitting? IBM.
-https://www.ibm.com/think/topics/overfitting
-Joblib. (n.d.). In *Joblib documentation*. Read the Docs.
-https://joblib.readthedocs.io/en/stable/
-Krammer, F., Hermann, E., & Rasmussen, A. L. (2025). Highly pathogenic avian influenza
-H5N1: History, current situation, and outlook. Journal of Virology, 99(4), e02209-24.
-https://doi.org/10.1128/jvi.02209-
-Kwon, B. (2021, June 28). Machine learning for biological sequence data using Python.
-Medium.
-https://byeungchun.medium.com/machine-learning-for-biological-sequence-data-usin
-g-python-573d82f6f17a
-Murel, J., & Kavlakoglu, E. (n.d.). What is ensemble learning? IBM.
-https://www.ibm.com/think/topics/ensemble-learning
-Roberts, M. D., Davis, O., Josephs, E. B., & Williamson, R. J. (2025). K -mer-based
-Approaches to Bridging Pangenomics and Population Genetics. Molecular Biology
-and Evolution, 42(3), msaf047. https://doi.org/10.1093/molbev/msaf
-scikit-learn. (n.d.). *sklearn.metrics — scikit-learn API documentation*.
-https://scikit-learn.org/stable/api/sklearn.metrics.html
-Swayne, D. E., & Sims, L. D. (2021). Avian Influenza. In S. Metwally, A. El Idrissi, & G.
-Viljoen (Eds), Veterinary Vaccines (1st edn, pp. 229–251). Wiley.
-https://doi.org/10.1002/9781119506287.ch
-Swayne, D. E., & Spackman, E. (2013). Current status and future needs in diagnostics and
-vaccines for high pathogenicity avian influenza. Developments in biologicals, 135,
-79–94. https://doi.org/10.1159/
-Webby, R. J., & Uyeki, T. M. (2024). An Update on Highly Pathogenic Avian Influenza
-A(H5N1) Virus, Clade 2.3.4.4b. The Journal of Infectious Diseases, 230(3), 533–542.
-https://doi.org/10.1093/infdis/jiae
-World Health Organization/World Organisation for Animal Health/Food and Agriculture
-Organization (WHO/OIE/FAO) H5N1 Evolution Working Group. (2014). Revised and
-updated nomenclature for highly pathogenic avian influenza A (H5N1) viruses.
-Influenza and Other Respiratory Viruses, 8(3), 384–388.
-https://doi.org/10.1111/irv.
+Alexander, D. J. (2007). An overview of the epidemiology of avian influenza. Vaccine, 25(30), 5637–5644. https://doi.org/10.1016/j.vaccine.2006.10.051
+Breiman, L. (2001). Random forests. Machine Learning, 45(1), 5–32. https://doi.org/10.1023/A:1010933404324 
+Demirev, A. V., Park, H., Lee, K., Park, S., Bae, J.-Y., Park, M.-S., & Kim, J. I. (2023). Phylodynamics and Molecular Mutations of the Hemagglutinin Affecting Global Transmission and Host Adaptation of H5Nx Viruses. Transboundary and Emerging Diseases, 2023, 1–14. https://doi.org/10.1155/2023/8855164
+Graziosi, G., Lupini, C., Catelli, E., & Carnaccini, S. (2024). Highly Pathogenic Avian Influenza (HPAI) H5 Clade 2.3.4.4b Virus Infection in Birds and Mammals. Animals, 14(9), 1372. https://doi.org/10.3390/ani14091372
+Harvey, J. A., Mullinax, J. M., Runge, M. C., & Prosser, D. J. (2023). The changing dynamics of highly pathogenic avian influenza H5N1: Next steps for management & science in North America. Biological Conservation, 282, 110041. https://doi.org/10.1016/j.biocon.2023.110041
+Hurt, A. C., Fouchier, R. A. M., & Vijaykrishna, D. (2017). Ecology and Evolution of Avian Influenza Viruses. In Genetics and Evolution of Infectious Diseases (pp. 621–640). Elsevier. https://doi.org/10.1016/B978-0-12-799942-5.00027-5
+IBM. (n.d.). What is overfitting? IBM. 
+https://www.ibm.com/think/topics/overfitting 
+Joblib. (n.d.). In *Joblib documentation*. Read the Docs. https://joblib.readthedocs.io/en/stable/ 
+Krammer, F., Hermann, E., & Rasmussen, A. L. (2025). Highly pathogenic avian influenza H5N1: History, current situation, and outlook. Journal of Virology, 99(4), e02209-24. https://doi.org/10.1128/jvi.02209-24
+Kwon, B. (2021, June 28). Machine learning for biological sequence data using Python. Medium. https://byeungchun.medium.com/machine-learning-for-biological-sequence-data-using-python-573d82f6f17a 
+Murel, J., & Kavlakoglu, E. (n.d.). What is ensemble learning? IBM. https://www.ibm.com/think/topics/ensemble-learning 
+Roberts, M. D., Davis, O., Josephs, E. B., & Williamson, R. J. (2025). K -mer-based Approaches to Bridging Pangenomics and Population Genetics. Molecular Biology and Evolution, 42(3), msaf047. https://doi.org/10.1093/molbev/msaf047
+scikit-learn. (n.d.). *sklearn.metrics — scikit-learn API documentation*. https://scikit-learn.org/stable/api/sklearn.metrics.html 
+Swayne, D. E., & Sims, L. D. (2021). Avian Influenza. In S. Metwally, A. El Idrissi, & G. Viljoen (Eds), Veterinary Vaccines (1st edn, pp. 229–251). Wiley. https://doi.org/10.1002/9781119506287.ch18
+Swayne, D. E., & Spackman, E. (2013). Current status and future needs in diagnostics and vaccines for high pathogenicity avian influenza. Developments in biologicals, 135, 79–94. https://doi.org/10.1159/000325276
+Webby, R. J., & Uyeki, T. M. (2024). An Update on Highly Pathogenic Avian Influenza A(H5N1) Virus, Clade 2.3.4.4b. The Journal of Infectious Diseases, 230(3), 533–542. https://doi.org/10.1093/infdis/jiae379
+World Health Organization/World Organisation for Animal Health/Food and Agriculture Organization (WHO/OIE/FAO) H5N1 Evolution Working Group. (2014). Revised and updated nomenclature for highly pathogenic avian influenza A (H5N1) viruses. Influenza and Other Respiratory Viruses, 8(3), 384–388. https://doi.org/10.1111/irv.12230
 
